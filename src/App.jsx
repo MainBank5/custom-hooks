@@ -2,6 +2,7 @@
 import useToggle from './useToggle';
 import useCount from './useCount';
 import './App.css'
+import Api from './components/Api';
 
 function App() {
   //for simplicity sake avoid renaming the hooks imported values and functions when using them in your components
@@ -22,6 +23,8 @@ function App() {
         <button onClick={increment}>increase value</button><br />
         <button onClick={decrement}>decrease value</button><br />
         <button onClick={reset}>Reset value</button><br />
+
+        <Api/>
         
       </div>
     </>
