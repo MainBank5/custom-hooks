@@ -1,6 +1,6 @@
 
-import useToggle from './useToggle';
-import useCount from './useCount';
+import useToggle from './Hooks/useToggle';
+import useCount from './Hooks/useCount';
 import './App.css'
 import Api from './components/Api';
 
